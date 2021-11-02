@@ -10,7 +10,7 @@ About this repo:
 About the algorithm:
 
 - This is an AI for the Chinese card game [Doudizhu](https://www.botzone.org.cn/game/FightTheLandlord2).
-- As of Nov. 2021, it [ranks](https://www.botzone.org.cn/game/ranklist/5e36c89c4019f43051e45589) #3 among all programs, and #1 among non-RL programs.
+- As of Nov. 2021, it [ranks](https://www.botzone.org.cn/game/ranklist/5e36c89c4019f43051e45589) #3 on Botzone among all programs, and #1 among non-RL programs.
   - Its name on the platform is "组合爆炸" (Combinatorial Explosion).
 - The algorithm is based on [MCTS with Determinization](https://ieeexplore.ieee.org/document/6031993), with several significant enhancements, including:
   - Assigning prior to MCTS states, based on heuristics.
