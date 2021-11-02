@@ -18,6 +18,8 @@ About the algorithm:
 - The hyperparameters are tuned using an evolutionary algorithm, with multiprocessing. (see `/tuning`)
 - The source code can be found at `/source/main.cpp`.
 
+Detailed explanation will be added in the future. ~~Well, probably.~~
+
 ### zh
 
 关于这个仓库：
@@ -34,3 +36,5 @@ About the algorithm:
   - 用启发式函数给 MCTS 加入先验估值；
   - 根据对手的出牌，来对其手牌进行贝叶斯推断。
 - 算法中有大量超参数，采用演化算法进行调参（需要多进程加速，详见 `/tuning` ）。
+
+暂时没有详细的介绍，不过之后可(da)能(gai)会(hui)有(gu)。
