@@ -13,7 +13,7 @@ About the algorithm:
 - As of Nov. 2021, it [ranks](https://www.botzone.org.cn/game/ranklist/5e36c89c4019f43051e45589) #3 on Botzone among all programs, and #1 among non-RL programs.
   - Its name on the platform is "组合爆炸" (Combinatorial Explosion).
 - The algorithm is based on [MCTS with Determinization](https://ieeexplore.ieee.org/document/6031993), with several significant enhancements, including:
-  - Assigning prior to MCTS states, based on heuristics.
+  - Assigning priors to the value of MCTS states, based on heuristics.
   - Carrying out bayesian inference on the cards of opponents, based on the cards they already played.
 - The hyperparameters are tuned using an evolutionary algorithm, with multiprocessing. (see `/tuning`)
 - The source code can be found at `/source/main.cpp`.
